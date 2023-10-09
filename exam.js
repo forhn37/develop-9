@@ -5,11 +5,11 @@ function buy_normal(item, price, quantity) {
   return total;
 }
 
-function pay(tot) {
-  console.log(`${tot}원을 지불하였습니다.`);
-}
+// function pay(tot) {
+//   console.log(`${tot}원을 지불하였습니다.`);
+// }
 
-let tot = buy_normal("고구마", 1000, 5);
-pay(tot);
+// let tot = buy_normal("고구마", 1000, 5);
+// pay(tot);
 
-// 동기방식 예제
+// // 동기방식 예제
