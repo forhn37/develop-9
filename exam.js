@@ -8,6 +8,7 @@ function buy_normal(item, price, quantity) {
 function pay(tot) {
   console.log(`${tot}원을 지불하였습니다.`);
 }
+
 let tot = buy_normal("고구마", 1000, 5);
 pay(tot);
 
